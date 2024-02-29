@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import styles from './MainContainer.module.css'
 import dayjs from 'dayjs'
-import { Input, Goal } from '../../components/index'
+import { Input, Goal } from '../../components'
 import { MdPlaylistAdd } from 'react-icons/md'
 
 const MainContainer = () => {

@@ -3,10 +3,10 @@ import styles from './Goal.module.css'
 
 const Goal = ({ id, status, msg, onCheckChange }) => {
   return (
-    <div className={StyleSheet.goalWrap}>
+    <div className={styles.goalWrap}>
       <label
-        className={status ? styles.textDisabled : styles.text}
-        htmlFor={id}>
+        htmlFor={id}
+        className={status ? styles.textDisabled : styles.text}>
         {status && <div className={styles.clean} />}
         <input
           type='checkbox'
